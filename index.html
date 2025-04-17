@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Shark Tank India</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo"><img src="images/logo.png" alt="" height="80px" width="4 50px"></div>
+
+    <div>
+      <input
+            type="text"
+            id="search-by-input"
+            placeholder="Enter Title"/>
+            <button type="submit" id="search-btn">🔍</button>
+          </div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Deals</a>
+      <a href="cart.html">Cart</a>
+    </div>
+  </nav>
+
+
+
+  </nav>
+  <button class="menu-toggle" id="menuToggle">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <div class="container">
+    <div class="row">
+      <div class="column"></div>
+    </div>
+    <div class="form-panel" id="formPanel">
+
+
+
+      <div class="row">
+        <div class="" id="sidebar-one">
+          <h4>Add Pitch</h4>
+          <input type="text" id="pitch-title" class="u-full-width" placeholder="Title" />
+          <input type="text" id="pitch-image" class="u-full-width" placeholder="Image Url" />
+          <input type="text" id="pitch-category" class="u-full-width" placeholder="Category" />
+          <input type="text" id="pitch-founder" class="u-full-width" placeholder="Founder" />
+          <input type="number" id="pitch-price" class="u-full-width" placeholder="Pitch Price" />
+          <!-- <input
+            type="date"
+            id="pitch-year"
+            class="u-full-width"
+            placeholder="Year of foundation"
+          /> -->
+          <button id="add-pitch" class="u-full-width button button-primary">
+            Add Pitch
+          </button>
+          <hr />
+
+          <h4>update all fields of Pitch</h4>
+          <input type="text" id="update-pitch-id" class="u-full-width" placeholder="ID" />
+          <input type="text" id="update-pitch-title" class="u-full-width" placeholder="Title" />
+          <input type="text" id="update-pitch-image" class="u-full-width" placeholder="Image Url" />
+          <input type="text" id="update-pitch-category" class="u-full-width" placeholder="Category" />
+          <input type="text" id="update-pitch-description" class="u-full-width" placeholder="Description" />
+          <input type="text" id="update-pitch-founder" class="u-full-width" placeholder="Founder" />
+          <input type="number" id="update-pitch-price" class="u-full-width" placeholder="Pitch Price" />
+          <!-- <input
+            type="date"
+            id="update-pitch-year"
+            class="u-full-width"
+            placeholder="Year of foundation"
+          /> -->
+          <button id="update-pitch" class="u-full-width button button-primary">
+            Update all fields
+          </button>
+          <hr />
+
+          <h4>update only Price</h4>
+          <input type="text" id="update-price-pitch-id" class="u-full-width" placeholder="ID" />
+          <input type="number" id="update-price-pitch-price" class="u-full-width" placeholder="Price" />
+          <button id="update-price-pitch" class="u-full-width button button-primary">
+            Update pitch Price
+          </button>
+          <hr />
+
+          <h4>Sort Based On Price</h4>
+          <button id="sort-low-to-high" class="u-full-width button button-primary">
+            Sort Low To High
+          </button>
+          <button id="sort-high-to-low" class="u-full-width button button-primary">
+            Sort High To Low
+          </button>
+          <hr />
+          <h4>Filter Based On Category</h4>
+          <button id="filter-Food" class="u-full-width button button-primary">
+            Food
+          </button>
+          <button id="filter-Electronics" class="u-full-width button button-primary">
+            Electronics
+          </button>
+          <button id="filter-Personal-Care" class="u-full-width button button-primary">
+            Personal-Care
+          </button>
+          <button id="filter-Home-Decoration" class="u-full-width button button-primary">
+            Home Decoration
+          </button>
+          <button id="filter-Fashion" class="u-full-width button button-primary">
+            Fashion
+          </button>
+          <button id="filter-Equipments" class="u-full-width button button-primary">
+            Equipments
+          </button>
+          <button id="filter-Beauty Product" class="u-full-width button button-primary">
+            Beauty Product
+          </button>
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+    <div class="data-list-wrapper" id="data-list-wrapper">
+      <!-- append card-list that includes card here -->
+      <div class="card-list">
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="main.js" type="module"></script>
+</body>
+
+<script>
+  const menuToggle = document.getElementById("menuToggle");
+  const formPanel = document.getElementById("formPanel");
+
+  menuToggle.addEventListener("click", () => {
+    formPanel.style.display = formPanel.style.display === "none" || formPanel.style.display === "" ? "block" : "none";
+  });
+
+
+</script>
+
+</html>

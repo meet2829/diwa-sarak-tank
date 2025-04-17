@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header / Navbar */
+.navbar {
+    background-color: #232f3e;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+p
+{
+    font-size: 20px;
+    margin-top: 10px;
+}
+input
+{
+    width: 450px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+#search-btn {
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+
+.products
+ {
+    
+    padding: 20px;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 10px;
+}
+
+.product {
+    margin: auto;
+    width: 800px;
+    height: auto;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: larger;
+    line-height: 1.7;
+}
+
+.product img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f0c14b;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.btn:hover {
+    background-color: #ddb347;
+}
+
+/* Footer */
+.footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <nav class="navbar">
+        <div class="logo">Amazon Clone</div>
+        <div>
+        <input
+              type="text"
+              id="search-by-input"
+              placeholder="Enter Title"/>
+              <button type="submit" id="search-btn">🔍</button>
+            </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Deals</a>
+            <a href="cart.html">Cart</a>
+        </div>
+    </nav>
+        
+    <section class="products">
+        <div class="product">
+            <img src="https://i.ibb.co/VL1Dnv1/4.webp" alt="apple" id="image">
+            <h1 id="title">Apple 10.2-inch iPad</h1>
+            <h3 id="price">price=269.00</h3>
+            <h4 id="category">Category=Electronics</h4>
+            <p id="description">2021 Apple 10.2-inch iPad Wi-Fi 64GB - Space Gray (9th Generation)</p>
+           <a href="cart.html"> <button class="btn" id="addtocart" >add to cart</button> </a>
+
+        </div>
+    </section>
+ </body>
+
+ <script>
+   const param= new URLSearchParams(window.location.search)
+   {
+   document.getElementById("image").src=param.get("image")
+   document.getElementById("title").innerHTML=param.get("title")
+   document.getElementById("price").innerHTML=param.get("price")
+   document.getElementById("category").innerHTML=param.get("category")
+   document.getElementById("description").innerHTML=param.get("description")
+   }
+
+
+   // post the data to cart
+
+   addtocart.addEventListener("click",()=>{
+
+    let cartdata= 
+{
+    Image:param.get("image"),
+    title:param.get("title"),
+    price:param.get("price"),
+    category:param.get("category"),
+    description:param.get("description")
+}
+
+
+   fetch("http://localhost:3000/cart",{
+    method:"POST",
+    headers: {
+    'Content-Type': 'application/json',
+    },
+        body: JSON.stringify(cartdata),
+        
+   }).then((res)=>res.json())
+   .then((data)=>alert("product added successfully!"))
+   .catch((err)=>console.log(err))
+
+})
+
+
+ </script>
+    </html>
+    

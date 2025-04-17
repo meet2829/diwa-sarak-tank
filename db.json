@@ -1,0 +1,356 @@
+{
+  "pitches": [
+    {
+      "title": "Hammer",
+      "image": "https://m.media-amazon.com/images/I/61RjUgGy04L._AC_UY327_FMwebp_QL65_.jpg",
+      "category": "Electronics",
+      "description": "Locate your earbuds effortlessly by just tapping onto the screen tws. Whether they're misplaced in your bag or left behind, our app helps you locate them quickly, so you can get back to enjoying your music without a hitch.",
+      "founder": "meet",
+      "price": "52",
+      "id": "6"
+    },
+    {
+      "title": "auli Lifestyle",
+      "image": "https://m.media-amazon.com/images/I/51DUbOFXgHL._AC_UL480_FMwebp_QL65_.jpg",
+      "category": "Personal Care",
+      "description": "A next-generation retinol oil that boosts collagen production, while improving the appearance of wrinkles, fine lines, redness, and acne scars for younger-looking skin. Retinuit works throughout the night to deliver youthful, luminous, even-toned skin in the morning.",
+      "founder": "Aishwarya Biswas",
+      "price": "35",
+      "id": "7"
+    },
+    {
+      "title": "Quirky Naari",
+      "image": "https://m.media-amazon.com/images/I/71Wa7-cOUqL._AC_UL480_FMwebp_QL65_.jpg",
+      "category": "Fashion",
+      "description": "The Color Me Up Slipons by The Quirky Naari are Handpainted Women Slipons that belong in the Slipon Canvas Flat category. These stylish slipons feature vibrant hand-painted designs that make them stand out from the crowd. Made with high-quality materials, these slipons are comfortable and durable for everyday wear. ",
+      "founder": "Malvica Saxena",
+      "price": "1999",
+      "id": "8"
+    },
+    {
+      "image": "https://static.wixstatic.com/media/5755f6_023c4baf970a43e4b187f7271a33fcad~mv2.png/v1/crop/x_237,y_352,w_1328,h_1331/fill/w_614,h_614,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/5755f6_023c4baf970a43e4b187f7271a33fcad~mv2.png",
+      "price": 54,
+      "percentage": 12,
+      "description": "Asia's first and only custom made electric kick scooter operator.World’s first in-premises electric vehicle hybrid-subscription fleet service.",
+      "founder": "Rutvij Dasadia ",
+      "category": "Education",
+      "year": "21-05-2021",
+      "title": "Booz scooters",
+      "id": "9"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/915WVrOntJL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 45,
+      "percentage": 25,
+      "description": "Get uniquely delicious and flavorful pickles and chutneys made by expert mom-chefs of Mithilanchal, Bihar. No Preservatives, No Additives, No Colors. Seasonal Fruits and Vegetables blended in locally sourced spices and mustard oil. ",
+      "founder": "Kalpana Jha ",
+      "category": "Food",
+      "year": "24-12-2018",
+      "title": "JhaJi Achaar",
+      "id": "10"
+    },
+    {
+      "image": "https://www.cocofit.in/images/Picture4_large.png",
+      "price": 25,
+      "percentage": 3.5,
+      "description": "We strive, respect and work hard every second taking our demigod to a new level with a delicious serving that would be a life changing experience.",
+      "founder": "Sashi Kanth V",
+      "category": "Food",
+      "year": "17-11-2017",
+      "title": "Cocofit",
+      "id": "11"
+    },
+    {
+      "image": "https://static.wixstatic.com/media/5f24cf_a17220104bb5486d943ad3acd5808e90~mv2.png/v1/fill/w_506,h_314,al_c,q_80,usm_0.66_1.00_0.01/5f24cf_a17220104bb5486d943ad3acd5808e90~mv2.png",
+      "price": 26,
+      "percentage": 2.56,
+      "description": "Falhari is India’s #1 fresh fruit products brand with an extensive range of delightful, made-to-order recipes of Salads, Juices, Smoothies, Lassis, Yoghurts, and more",
+      "founder": "Rahul Shankar Bhardwaj",
+      "category": "Food",
+      "year": "20-12-2021",
+      "title": "Falhari",
+      "id": "13"
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOkeAS5PgCBISOPRp_mZJuIxJ74IyCAlP_A&usqp=CAU",
+      "price": 50,
+      "percentage": 2,
+      "description": "We push our boundaries every day, we’re here to innovate and inspire a new generation of sustainable sanitation technology. PadCare isn’t a startup, it’s a revolution.",
+      "founder": "Ajinkya Dhariya",
+      "category": "Electronics",
+      "year": "07-09-2022",
+      "title": "Padcare Lab",
+      "id": "15"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/617QlJ62nFL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 57,
+      "percentage": 2,
+      "description": "aradyes is a semi-permanent hair color brand. She introduced the brand by identifying a gap in the market. Banking on her family business of dyes and intermediates, she teamed up with professionals and began R&D to formulate hair colors in their lab.",
+      "founder": "Yushika Jolly,",
+      "category": "Personal Care",
+      "year": "01-07-2021",
+      "title": "Paradyes",
+      "id": "16"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/610d1RfgHDL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 100,
+      "percentage": 1.5,
+      "description": "A small device that can be attached to any normal stethoscope and the stethoscope will become a digital one. Using this device it can reduce background noise, better audio, and visual clarity, and after all, one can get the live stream of data. ",
+      "founder": "Adarsha K",
+      "category": "Electronics",
+      "year": "12-22-2014",
+      "title": "AyuSynk",
+      "id": "17"
+    },
+    {
+      "image": "https://www.primebook.in/uploads/feature/1675677835_d887598e98a67da677f0.png",
+      "price": 75,
+      "percentage": 1.5,
+      "description": "Primebook 4G unites everything you need to elevate your learning. Meet the first Made In India 4G laptop, engineered with cutting-edge technology, based on the Android 11 Ecosystem, unlocking limitless learning opportunities.",
+      "founder": "Chitranshu Mahant",
+      "category": "Tech",
+      "title": "Primebook",
+      "year": "14-02-2020",
+      "id": "21"
+    },
+    {
+      "image": "https://m.media-amazon.com/images/I/61pq3ae629L._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 45,
+      "percentage": 10,
+      "description": "HoloKitab is an edTech platform that enables book publishers and manufacturers from various industries to deliver Augmented Reality content to their users in a cost effective way.",
+      "founder": "Dipanshu Bajaj and Nikhil Miglani",
+      "category": "Education",
+      "year": "15-04-2020",
+      "title": "HoloKitab",
+      "id": "22"
+    },
+    {
+      "id": "f435",
+      "title": "Canon EOS Rebel T100",
+      "image": "https://i.ibb.co/1r28gMk/1.webp",
+      "category": "Electronics",
+      "founder": "canon",
+      "price": "210000"
+    },
+    {
+      "id": "8220",
+      "title": "DJI Air",
+      "image": "https://i.ibb.co/qdfB3s6/2.webp",
+      "category": "Electronics",
+      "founder": "DJI",
+      "price": "10000"
+    },
+    {
+      "_id": 103,
+      "title": "Apple 10.2-inch iPad",
+      "description": "2021 Apple 10.2-inch iPad Wi-Fi 64GB - Space Gray (9th Generation)",
+      "oldPrice": "329.00",
+      "price": "269.00",
+      "brand": "Apple",
+      "image": "https://i.ibb.co/VL1Dnv1/4.webp",
+      "isNew": true,
+      "category": "Electronics",
+      "id": "4501"
+    },
+    {
+      "_id": 105,
+      "title": "Apple Watch SE",
+      "description": "Apple Watch SE (2nd Gen) GPS 40mm Midnight Aluminum Case with Midnight Sport Band - S/M",
+      "price": "249.00",
+      "brand": "Apple",
+      "image": "https://i.ibb.co/xgZWmdq/8.jpg",
+      "isNew": true,
+      "category": "Electronics",
+      "id": "fe77"
+    },
+    {
+      "_id": 106,
+      "title": "Beats Solo3",
+      "description": "Beats Solo3 Wireless On-Ear Headphones with Apple W1 Headphone Chip, Black, MX432LL/A",
+      "oldPrice": "120.99",
+      "price": "130.09",
+      "brand": "Beats by Dr. Dre",
+      "image": "https://i.ibb.co/rQKjVC2/5.webp",
+      "isNew": true,
+      "category": "Electronics",
+      "id": "2af5"
+    },
+    {
+      "_id": 107,
+      "title": "uhomepro TV Stand Cabinet",
+      "description": "uhomepro TV Stand Cabinet for Living Room up to 55 Television, Entertainment Center with RGB LED Lights and Storage Shelves Furniture, Black High Gloss TV Cabinet Console Table, Q15709",
+      "oldPrice": "219.99",
+      "price": "125.99",
+      "brand": "uhomepro",
+      "image": "https://i.ibb.co/Ycz8hkV/6.webp",
+      "isNew": true,
+      "category": "Home Decoration",
+      "id": "2815"
+    },
+    {
+      "_id": 108,
+      "title": "T-Shirt Men",
+      "description": "St Patricks Day T-Shirt Men -Image by Shutterstock, Male XX-Large",
+      "oldPrice": "15.00",
+      "price": "18.99",
+      "brand": "Smartprints",
+      "image": "https://i.ibb.co/BLCDw7v/3.webp",
+      "isNew": true,
+      "category": "Fashion",
+      "id": "0bb9"
+    },
+    {
+      "_id": 109,
+      "title": "Picnic Table Bench Set",
+      "description": "Costway Picnic Table Bench Set Outdoor Backyard Patio Garden Party Dining All Weather Black",
+      "oldPrice": "169.99",
+      "price": "298.00",
+      "brand": "Costway",
+      "image": "https://i.ibb.co/qCXcPhq/8.webp",
+      "isNew": true,
+      "category": "Home Decoration",
+      "id": "7e35"
+    },
+    {
+      "_id": 110,
+      "title": "Grill Heavy Duty",
+      "description": "Expert Grill Heavy Duty 24-Inch Charcoal Grill, Black",
+      "price": "107.00",
+      "brand": "Expert Grill",
+      "image": "https://i.ibb.co/TTS9wY4/9.webp",
+      "isNew": true,
+      "category": "Equipments",
+      "id": "1ffd"
+    },
+    {
+      "_id": 111,
+      "title": "Girls Cropped",
+      "description": "Free Assembly Girls Cropped Mixed Cable Knit Fair Isle Sweater, Sizes 4-18",
+      "oldPrice": "20.00",
+      "price": "15.31",
+      "brand": "Free Assembly",
+      "image": "https://i.ibb.co/BVzsqvz/10.webp",
+      "isNew": true,
+      "category": "Fashion",
+      "id": "1541"
+    },
+    {
+      "_id": 112,
+      "title": "Night of Olay Firming Night Cream Face Moisturizer, 1.9 oz",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+      "price": "7.98",
+      "brand": "Olay",
+      "image": "https://i.ibb.co/zPDcCQY/top4.webp",
+      "isNew": true,
+      "category": "Beauty Product",
+      "id": "bd13"
+    },
+    {
+      "_id": 113,
+      "title": "Face LiquidSweet Lightweight Beauty Products for Women",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+      "price": "7.62",
+      "brand": "unknown",
+      "image": "https://i.ibb.co/QC4L3RF/top8.jpg",
+      "isNew": true,
+      "category": "Beauty Product",
+      "id": "3485"
+    },
+    {
+      "_id": 114,
+      "title": "L'Oreal Paris Revitalift Triple Power Anti-Aging Cream Face Moisturizer 1.7 oz",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+      "oldPrice": "35.00",
+      "price": "21.91",
+      "brand": "L'Oreal Paris",
+      "image": "https://i.ibb.co/dKmw2sC/top2.webp",
+      "isNew": true,
+      "category": "Beauty Product",
+      "id": "41fb"
+    },
+    {
+      "_id": 115,
+      "title": "L'Oreal Paris 55+ Moisturizer Anti-Aging Face Moisturizer, Wrinkle Expert, 1.7 oz",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+      "oldPrice": "23.65",
+      "price": "10.63",
+      "brand": "L'Oreal Paris",
+      "image": "https://i.ibb.co/sJwg0YF/top1.webp",
+      "isNew": true,
+      "category": "Beauty Product",
+      "id": "7cbf"
+    },
+    {
+      "_id": 116,
+      "title": "Vaseline Intensive Care™ Advanced Repair Unscented Body Lotion, 20.3 oz",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+      "oldPrice": "9.99",
+      "price": "6.98",
+      "brand": "Vaseline",
+      "image": "https://i.ibb.co/v1sPXLq/top5.webp",
+      "isNew": true,
+      "category": "Beauty Product",
+      "id": "b534"
+    },
+    {
+      "_id": 117,
+      "title": "CeraVe Healing Ointment, Protects and Soothes Cracked Skin, 12 oz",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+      "oldPrice": "25.35",
+      "price": "20.87",
+      "brand": "CeraVe",
+      "image": "https://i.ibb.co/yPJjB3r/top6.webp",
+      "isNew": false,
+      "category": "Beauty Product",
+      "id": "eba6"
+    },
+    {
+      "_id": 118,
+      "title": "Neutrogena Hydro Boost Hyaluronic Acid Water Gel Face Moisturizer, 1.7 oz",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+      "oldPrice": "29.00",
+      "price": "19.97",
+      "brand": "Neutrogena",
+      "image": "https://i.ibb.co/zmw8xFY/top7.webp",
+      "isNew": true,
+      "category": "Beauty Product",
+      "id": "84e5"
+    },
+    {
+      "_id": 119,
+      "title": "L'Oreal Paris Collagen Moisture Filler Facial Treatment Day Night Cream, Anti-Aging, 1.7 oz",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since",
+      "oldPrice": "14.00",
+      "price": "8.98",
+      "brand": "L'Oreal Paris",
+      "image": "https://i.ibb.co/vHJkwzt/top3.webp",
+      "isNew": false,
+      "category": "Beauty Product",
+      "id": "3852"
+    },
+    {
+      "_id": 120,
+      "title": "Girls Sleeveless Cutout",
+      "description": "Free Assembly Girls Sleeveless Cutout Jumpsuit, Sizes 4-18",
+      "oldPrice": "52.00",
+      "price": "22.00",
+      "brand": "Free Assembly",
+      "image": "https://i.ibb.co/BNXTLkq/12.webp",
+      "isNew": false,
+      "category": "Fashion",
+      "id": "21bd"
+    }
+  ],
+  "cart": [
+    {
+      "id": "7d51",
+      "Image": "https://m.media-amazon.com/images/I/61RjUgGy04L._AC_UY327_FMwebp_QL65_.jpg",
+      "title": "Hammer",
+      "price": "52    ",
+      "category": "Electronics",
+      "description": "Locate your earbuds effortlessly by just tapping onto the screen tws. Whether they're misplaced in your bag or left behind, our app helps you locate them quickly, so you can get back to enjoying your music without a hitch."
+    }
+  ]
+}
